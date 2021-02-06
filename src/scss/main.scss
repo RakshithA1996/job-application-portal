@@ -1,0 +1,32 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/btn";
+@import "components/applicant";
+@import "components/jobApplication";
+@import "components/jobListing";
+@import "components/home";
+
+@import "layouts/footer";
+@import "layouts/navigation";
+
+// @import "components/jobApplication";
+@import "components/JobOpeningsList";
+
+@import "components/features";
+// @import "components/institutes";
+// @import "components/news";
+@import "components/carousel";
+@import "components/JobForm";
+@import "components/JobDetails";
+@import "components/Form";
+
+@import "components/AboutUs";
+@import "components/lifeStory";
+@import "components/JoinUs";
+@import "components/JobList";

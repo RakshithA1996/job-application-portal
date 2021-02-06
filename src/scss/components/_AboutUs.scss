@@ -1,0 +1,139 @@
+.AboutUs {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f7f8;
+    padding: 40px 9rem;
+
+    &-heading {
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    }
+
+    &-content1 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    }
+}
+
+.GetExcited {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 40px 9rem;
+
+    &-heading {
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    }
+
+    &-headingContent {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    color: #008489;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+
+    &-Opportunity {
+        margin-top: 4rem;
+        font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    display: flex;
+    
+    }
+
+    &-OpportunityList{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 32px;
+        margin-top: 3rem;
+
+        &-point{
+            display: flex;
+        flex-direction: column;
+        }
+
+        &-image {
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        &-text {
+            padding: 1rem 2rem;
+            margin-top: 2rem;
+            font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 2.7rem;
+    text-align: center;
+        }
+    }  
+}
+
+@media(max-width:700px){
+    .AboutUs{
+        padding: 3rem;
+
+        &-heading {
+            font-size: 3rem;
+        }
+        &-content1 {
+            margin-top: 2rem;
+            font-size: 1.8rem;
+        line-height: 2.6rem;
+        }
+    }
+
+    .GetExcited {
+        padding: 3rem;
+        line-height: 3rem;
+
+        &-heading{
+            font-size: 3rem;
+        }
+        &-OpportunityList {
+            grid-template-columns: 1fr;
+        }
+        &-headingContent {
+            margin-top: 2.5rem;
+            font-size: 2.2rem;
+            line-height: 3rem;
+        }
+        &-Opportunity{
+            margin-top: 3rem;
+            font-size: 2.5rem;
+            justify-content: center;
+            // text-align: center;
+        }
+        &-OpportunityList{
+            margin-top: 2.5rem;
+
+            &-image{
+                height: 100px;
+                width: 100px;
+            }
+            &-text{
+                margin-top: 1rem;
+                font-size: 1.8rem;
+                color: rgba(0,0,0,0.87);
+            }
+        }
+    }
+
+}
+
