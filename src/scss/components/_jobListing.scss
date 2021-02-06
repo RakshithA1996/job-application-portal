@@ -89,6 +89,7 @@
     &--list:hover {
       box-shadow: 0em 0.3em 0.6em #e5e5e5, 0em 0.3em 0.6em #e5e5e5;
       transition: box-shadow 0.5s ease-in-out;
+      cursor: pointer;
     }
 
     @include respond(phone) {

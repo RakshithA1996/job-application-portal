@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import ClassplusLogo from "../images/classplusLogo.svg";
-import ClassplusWhiteLogo from "../images/classplusLogo-grey.svg";
 import { Link } from "react-router-dom";
 
 class Navigation extends Component {
@@ -28,15 +26,7 @@ class Navigation extends Component {
         }
       >
         <div className="navigation__logo">
-          <img
-            src={
-              window.location.href.includes("home")
-                ? ClassplusWhiteLogo
-                : ClassplusLogo
-            }
-            alt="Classplus"
-            className="navigation__logo--img"
-          />
+          <div className="navigation__logo--Para">JOB PORTAL</div>
           {window.location.href.includes("home") ? (
             <div className="navigation__logo--applicantMain">
               <button

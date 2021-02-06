@@ -18,13 +18,13 @@ class JobDetails extends Component {
             <div className="backBtn"><img src={back} alt="back" onClick={()=>{this.props.history.push("/job-list")}} /></div>
                 <div className="JobDetails" >
                 <div className="JobDetails--title">{jobInfo.name}</div>
-                <div className="JobDetails--location"><span className="bold">Location:</span> {jobInfo.location}</div>
+                <div className="JobDetails--location"><span className="bold">Location:</span> District, State</div>
                 <div className="JobDetails--location"><span className="bold">Industry:</span> Information Technology & Services  Computer Software  Internet</div>
                 <div className="JobDetails--location"><span className="bold">Employment Type:</span> {jobInfo.employment}</div>
                 <div className="JobDetails--location"><span className="bold">Seniority Level:</span> {jobInfo.level}</div>
                 <div className="JobDetails--aboutRoleHead">About The Role</div>
                 <ul>
-                <li className="JobDetails--aboutRoleContent">As a Front End Developer at Classplus, you will be responsible for implementing visual elements that are visible from the computer users vantage point within a web application. You will combine the art of design with the science of programming.</li>
+                <li className="JobDetails--aboutRoleContent">As a Front End Developer at Company, you will be responsible for implementing visual elements that are visible from the computer users vantage point within a web application. You will combine the art of design with the science of programming.</li>
                 <li className="JobDetails--aboutRoleContent">You will be responsible for the translation of UI/UX design wireframes to actual code. There are times you will be expected to work independently to meet tight deadlines following design guidelines.</li>
                 </ul>
                 <div className="JobDetails--aboutRoleHead">What You'll Do</div>

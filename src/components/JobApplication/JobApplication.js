@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Navigation from "../Navigation";
 import Footer from "../Footer";
-import webBanner from "../../images/jobApplication/WebBannerInde.jpg"
-import MobileBanner from "../../images/jobApplication/MobileBannerInde.jpg"
 import Feature from "./Features"
 import videoBg from "../../Videos/videoplayback.mp4"
 import AboutUs from "./AboutUs"
@@ -33,7 +31,6 @@ class JobApplication extends Component {
     return (
       <div className="jobApplication">
         <Navigation navButton={this.state.navButton} />
-        {/*<img src={window.innerWidth > 600 ? webBanner : MobileBanner} alt="" className={window.innerWidth > 600 ? "jobApplication--WebBanner" : "jobApplication--MobileBanner"} />*/}
         <div className="jobApplication-videoHeader">
           <video autoPlay muted loop className="jobApplication-videoBackground">
             <source src={videoBg} type="video/mp4" />

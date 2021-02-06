@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ClassplusWhiteLogo from "../../images/classplusLogo-grey.svg";
 import more from "../../images/more.png";
 
 class NavHeader extends Component {
@@ -29,11 +28,14 @@ class NavHeader extends Component {
     return (
       <div className="navHeader">
         <div className="navHeader__logoDiv">
-          <img
+          {/* <img
             src={ClassplusWhiteLogo}
             alt="classplusLogo"
             className="navHeader__logoDiv--clp"
-          />
+          /> */}
+          <div className="navHeader__logoDiv--clp">
+            JOB PORTAL
+          </div>
           <button
             style={{ background: bgColor1, color: color1 }}
             className="navHeader__logoDiv--applicant"
